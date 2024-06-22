@@ -35,7 +35,24 @@
         Ethan Saha
     </h1>
     <hr style="width: 370rem;">
-    <script src="script.js" async defer></script>
+    <button style="font-size:30px;" onclick="openModal()">
+        Denunciar
+    </button>
+    <div class="modal-background">
+        <div class="modal">
+            <div class="modal-header">
+                <h4>Denúncia</h4>
+                <span onclick="closeModel()" class="material-icons-outlined" style="font-size:40px; margin: auto 0;">
+                    close
+                </span>
+            </div>
+            <p>Que tipo de problema você está apontando?</p>
+            <textarea id="reportInput" name="report input" cols="50" rows="10"
+                style="font-size:20px; font-family: Urbanist;"></textarea>
+            <button id="btn-report">Denunciar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js" async defer></script>
 </body>
 
 </html>
