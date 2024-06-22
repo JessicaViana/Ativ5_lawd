@@ -1,15 +1,61 @@
 :root {
+    font-size: 6.25%;
+    margin: 0;
 
     /* colors */
     --blue-1: #114B5F;
     --blue-2: #028090;
     --background-color: #E4FDE1;
-    --white: #FFFFFF;
     --font-primary: "Urbanist", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline;
+    padding: 10rem;
+}
 
 body {
     background-color: var(--blue-1);
     font-family: var(--font-primary);
+    margin: 45rem 64rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 46rem;
+    margin: auto 0;
+}
+
+#navbar {
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    font-size: 24rem;
+    border-radius: 58rem;
+    padding: 12rem 20rem;
+    width: 710rem;
+    vertical-align: middle;
+    margin: 12rem 0;
+}
+
+hr {
+    border-top: 1px solid white;
+    margin: 12rem 0;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+    word-wrap: break-word"
+
 }
