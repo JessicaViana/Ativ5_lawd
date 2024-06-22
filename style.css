@@ -55,7 +55,70 @@ h1 {
     color: white;
     font-size: 64px;
     font-weight: 600;
-    margin: 0;
     word-wrap: break-word"
 
+}
+
+h1,
+p,
+h4 {
+    margin: 0;
+}
+
+.modal {
+    padding: 18rem;
+    font-size: 24rem;
+    color: var(--blue-1);
+    background-color: white;
+    border-radius: 15rem;
+    width: 400rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -200rem;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    backdrop-filter: blur(4rem);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#btn-report {
+    color: white;
+    font-size: 20rem;
+    font-weight: 700;
+    height: 60rem;
+    padding: 8rem 16rem;
+    background: var(--blue-1);
+    border-radius: 38rem;
+
+}
+
+span:hover {
+    color: var(--blue-2);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
