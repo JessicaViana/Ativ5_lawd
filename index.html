@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+
+</head>
+
+<body>
+    <nav>
+        <img src="/CrostaAtiv5/Ativ5_lawd/assets/logo.png" alt="">
+        <div id="navbar">
+            <a href="">Home</a>
+            <a href="">Galeria Geral</a>
+            <a href="">Minha Galeria</a>
+            <a href="">Notificações</a>
+            <span class="material-icons-outlined" style="font-size:40px; margin: auto 0;">
+                account_circle
+            </span>
+        </div>
+    </nav>
+    <hr>
+    <h1>
+        Ethan Saha
+    </h1>
+    <hr style="width: 370rem;">
+    <button style="font-size:30px;" onclick="openModal()">
+        Denunciar
+    </button>
+    <div class="modal-background">
+        <div class="modal">
+            <div class="modal-header">
+                <h4>Denúncia</h4>
+                <span onclick="closeModel()" class="material-icons-outlined" style="font-size:40px; margin: auto 0;">
+                    close
+                </span>
+            </div>
+            <p>Que tipo de problema você está apontando?</p>
+            <textarea id="reportInput" name="report input" cols="50" rows="10"
+                style="font-size:20px; font-family: Urbanist;"></textarea>
+            <button id="btn-report">Denunciar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js" async defer></script>
+</body>
+
+</html>
